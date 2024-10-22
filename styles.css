@@ -1,0 +1,49 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff4e6; /* Light peach background */
+  }
+  .container {
+  text-align: center;
+  background-color: #ffe5ec; /* Light pink container */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for
+  elevation */
+  }
+  h1 {
+  color: #ff6b6b;
+  font-size: 28px;
+  }
+  button {
+  padding: 12px 24px;
+  background-color: #ff6b6b; /* Soft pink button */
+  color: white;
+  border: none;
+  border-radius: 30px; /* Rounded button */
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  }
+  button:hover {
+  background-color: #ff8a80; /* Slightly lighter pink on hover */
+  }
+  .image-container {
+  margin-top: 30px;
+  }
+  img {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around
+  the image */
+  border: 4px solid #ff6b6b;
+  background-color: #ffe5ec;
+  }
+  
